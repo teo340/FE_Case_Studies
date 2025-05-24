@@ -1,0 +1,55 @@
+\documentclass[12pt]{article}
+\usepackage[
+    a4paper,
+    margin=3cm,
+    %showframe,
+]{geometry} % Adjust the page margins
+\usepackage{graphicx} % Required for including images
+\usepackage{titling} % Customizing the title section
+\usepackage{anyfontsize} % Custom font sizes
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{underscore}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\usepackage{biblatex}
+\renewcommand{\contentsname}{Index}
+\newcommand{\Vega}{\mathcal{V}}
+
+% Define the title page
+\newcommand{\titlepagecontent}{
+    \centering
+    % Placeholder for the university logo
+    \includegraphics[width=0.3\textwidth]{imgs/logo.pdf}\\
+    \vspace{0.5cm}
+    {\large Scuola di Ingegneria Industriale e dell'Informazione\par}
+    {\large Corso di Laurea Magistrale in Mathematical Engineering - Quantitative Finance\par}
+    \vspace{3cm}
+    %\rule{\textwidth}{1pt}
+    {\LARGE\bfseries Financial Engineering: Group 4\par Assignment 1\par}
+    %\rule{\textwidth}{1pt}
+    \vfill
+    {\large Matteo Bovio: 272377\par}
+    {\large Alberto Busci: 278889\par}
+    {\large Matteo Campagnoli: 275975\par}
+    {\large Alice Sofia Casciani: 275720\par}
+    \vspace{1cm}
+    \centering
+    \vfill
+    {\large Academic Year: 2024-2025\par}
+}
+
+\begin{document}
+{\large}
+\begin{titlingpage}
+    \titlepagecontent
+\end{titlingpage}
+
+\clearpage
+
+\tableofcontents
+\clearpage
+\input{content.tex}
+
+\end{document}
