@@ -1,6 +1,6 @@
 # Financial Case Studies
 
-This repository contains solutions to one or more financial case studies organized in separate folders. Each folder includes source code written in MATLAB or Python used to solve the respective problems.
+This repository contains solutions to different financial case studies organized in separate folders. Each folder includes source code written in MATLAB or Python used to solve the respective problems.
 
 Additionally, each case study is accompanied by a detailed report that includes:
 - A clear description of the problem
